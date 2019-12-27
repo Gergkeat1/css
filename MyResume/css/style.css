@@ -175,6 +175,10 @@ header {
 	background-image:url(../img/pattern.png);
 	background-repeat: repeat;
 }
+.imgsize{
+	background-size: 100px;
+	background-color: #fff;
+}
 /* --- Heading --- */
 .heading {
 	padding-bottom:15px;
@@ -874,4 +878,20 @@ blockquote cite {
 }
 blockquote cite:before {
 	content: "\2014 \2009";
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	width: auto;
+	height: auto;
+	margin: auto;
+	padding: 5%;
+  }
+  .grid-item {
+	padding: 20px;
+  }
+.toktack{
+	display:inline;
+	letter-spacing:none;
 }
