@@ -46,19 +46,19 @@ var ctxB = document.getElementById("barChart2").getContext('2d');
 var myBarChart = new Chart(ctxB, {
 type: 'bar',
 data: {
-labels: ["Adobe photoshop", "Adobe illustrator", "Adobe premiere"],
+labels: ["Adobe photoshop", "Adobe illustrator", "Adobe premiere Pro"],
 datasets: [{
 label: 'PHOTOGRAPHY SKILLS',
 data: [80, 80, 75, 0,100],
 backgroundColor: [
 'rgba(75, 192, 192, 0.2)',
-'rgba(153, 102, 255, 0.2)',
-'rgba(255, 159, 64, 0.2)'
+'rgba(255, 159, 64, 0.2)',
+'rgba(153, 102, 255, 0.2)'
 ],
 borderColor: [
 'rgba(75, 192, 192, 1)',
-'rgba(153, 102, 255, 1)',
-'rgba(255, 159, 64, 1)'
+'rgba(255, 159, 64, 1)',
+'rgba(153, 102, 255, 1)'
 ],
 borderWidth: 1
 }]
