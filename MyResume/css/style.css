@@ -292,6 +292,7 @@ img#site-title {
   text-align: right;
 }
 
+
 .progress{
   position: relative;
 }
@@ -308,6 +309,20 @@ img#site-title {
   border-radius: 2px;
   margin-left: -30px;
 }
+.progress .bar-width#bottom{
+	position: absolute;
+	width: 40px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  top: 25px;
+  border-radius: 2px;
+  margin-left: -30px;
+	
+
+  }
 
 .progress span{
   position: relative;
@@ -323,6 +338,19 @@ img#site-title {
   bottom: -15px;
   right: 8px;
 }
+.progress span#bottom:before{
+	content: " ";
+	position: absolute;
+	width: auto;
+	height: auto;
+	border-width: 8px 5px;
+	border-style: solid;
+	bottom: 20px;
+	right: 8px;
+    transform: rotate(180deg);
+
+
+  }
 
 .progress .color1 span:before{
   border-color: #2d7da4 transparent transparent transparent;
@@ -429,7 +457,7 @@ img#site-title {
 }
 .grid figcaption {
 	background:#333;
-	padding: 25px;
+	padding: 10px;
 }
 /* Slideshow style */
 .slideshow {
